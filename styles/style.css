@@ -1,0 +1,43 @@
+/* fonts */
+@font-face {
+    font-family: Helvetica-new;
+    src: url('../fonts/Helvetica.ttf');
+}
+
+/* main styles */
+main {
+    margin-top: 4%;
+}
+
+h1 {
+    font-family: Helvetica-new, Arial, sans-serif;
+    background-image: linear-gradient(to right, #0041a3, #9f12eb);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.card-body {
+    margin-top: 24%;
+}
+
+.icons {
+    gap: 15px;
+    color: #087790;
+}
+
+/* footer styles */
+footer{
+    margin-top: 4%;
+}
+
+footer h1 {
+    margin-bottom: 0px;
+}
